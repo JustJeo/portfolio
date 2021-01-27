@@ -16,10 +16,19 @@ img {
   width: 80%;
   display: block;
   margin: 10px auto;
+  border: 5px solid dimgray;
 }
 
 span {
-  color: dimgray;
+  color: darkorange;
+}
+
+.tech {
+  color: limegreen;
+}
+
+a:visited {
+  color: gold;
 }
 
 nav {
