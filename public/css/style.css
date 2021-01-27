@@ -10,24 +10,22 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding: 15px;
 }
 
 img {
   width: 80%;
   display: block;
   margin: 10px auto;
+  border: 5px solid dimgray;
 }
 
-span {
-  color: dimgray;
-}
 
 nav {
   background-color: white;
   color: black;
   display: flex;
   justify-content: space-between;
-  margin: 10px;
 }
 
 nav ul li {
@@ -57,7 +55,6 @@ footer {
   color: white;
   display: flex;
   justify-content: space-between;
-  /* margin: 10px; */
   padding-left: 20px;
   bottom: 0;
 }
@@ -82,4 +79,33 @@ footer a {
 
 footer a:hover {
   color: silver;
+}
+
+.aboutMe {
+  background-color: rgba(0, 0, 0, .8);
+  padding: 20px;
+  width: 80%;
+  margin: 25px auto;
+}
+
+span {
+  color: darkorange;
+}
+
+.tech {
+  color: limegreen;
+}
+
+.projectLink {
+  color: gold;
+}
+
+.collabInline {
+  display: inline-block;
+  width: 40%;
+  height: 500px;
+}
+
+.collabPics {
+  text-align: center;
 }
