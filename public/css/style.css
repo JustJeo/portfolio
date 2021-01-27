@@ -84,6 +84,11 @@ footer a:hover {
 
 .homePage {
   text-align: center;
+  background-color: rgba(0, 0, 0, .8);
+  padding: 20px;
+  width: 70%;
+  margin: 300px auto;
+  border: 5px solid white;
 }
 
 .aboutMe {
@@ -91,6 +96,24 @@ footer a:hover {
   padding: 20px;
   width: 80%;
   margin: 25px auto;
+  border: 5px solid white;
+}
+
+.languages ul li {
+  list-style-type: none;
+  margin: auto;
+  padding: 20px;
+  display: inline-block;
+}
+
+.langList {
+  text-align: center;
+  color: limegreen;
+  background-color: rgba(0, 0, 0, .8);
+  padding: 5px;
+  width: 55%;
+  margin: 25px auto;
+  border: 5px solid white;
 }
 
 .projectText {
@@ -120,7 +143,7 @@ span {
 .collabInline {
   display: inline-block;
   width: 40%;
-  height: 500px;
+  height: 75%;
 }
 
 .collabPics {
