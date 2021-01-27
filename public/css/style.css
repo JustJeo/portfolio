@@ -5,6 +5,7 @@
 body {
   background: #a3cdff;
   color: white;
+  text-shadow: 2px 2px dimgray;
   font-size: 1.5em;
   background: url("/images/background.jpg");
   background-size: cover;
@@ -81,11 +82,27 @@ footer a:hover {
   color: silver;
 }
 
+.homePage {
+  text-align: center;
+}
+
 .aboutMe {
   background-color: rgba(0, 0, 0, .8);
   padding: 20px;
   width: 80%;
   margin: 25px auto;
+}
+
+.projectText {
+  background-color: rgba(0, 0, 0, .8);
+  padding: 20px;
+  width: 90%;
+  margin: 25px auto;
+  border: 5px solid white;
+}
+
+.projectPic {
+  margin-bottom: 200px;
 }
 
 span {
@@ -108,4 +125,5 @@ span {
 
 .collabPics {
   text-align: center;
+  padding-bottom: 200px;
 }
