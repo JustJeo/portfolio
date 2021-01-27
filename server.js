@@ -27,4 +27,4 @@ app.get("/projects", (req, res) => {
   res.render("projects", {title: "Projects"})
 })
 
-app.listen(8000)
+app.listen(process.env.PORT || 3000)
