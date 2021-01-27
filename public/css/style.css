@@ -1,9 +1,25 @@
 * {
-  font-family: "VT323", sans-serif;
+  font-family: "Play", sans-serif;
 }
 
 body {
   background: #a3cdff;
+  color: white;
+  font-size: 1.5em;
+  background: url("/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+img {
+  width: 80%;
+  display: block;
+  margin: 10px auto;
+}
+
+span {
+  color: dimgray;
 }
 
 nav {
@@ -41,8 +57,9 @@ footer {
   color: white;
   display: flex;
   justify-content: space-between;
-  margin: 10px;
+  /* margin: 10px; */
   padding-left: 20px;
+  bottom: 0;
 }
 
 footer ul li {
