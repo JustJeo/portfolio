@@ -126,7 +126,7 @@ footer a:hover {
 }
 
 .projectPic {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 span {
@@ -145,9 +145,42 @@ span {
   display: inline-block;
   width: 40%;
   height: 500px;
+  margin: 0;
 }
 
 .collabPics {
   text-align: center;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
+}
+
+/* Responsive Code */
+/* Phone */
+@media only screen and (max-width: 850px) {
+  nav {
+    text-align: center;
+  }
+
+  footer {
+    background-color: black;
+    display: block;
+    padding: 10px;
+  }
+
+  footer h1 {
+    text-align: center;
+  }
+  
+  footer ul {
+    padding: 10px;
+    display: block;
+  }
+
+  footer ul li {
+    padding: 10px 0;
+    margin: 0 auto;
+  }
+
+  /* .email {
+    display: block;
+  } */
 }
