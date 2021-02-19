@@ -1,6 +1,6 @@
 // Require Statements
 const express = require("express");
-const layouts = require("express-ejs-layouts")
+const layouts = require("express-ejs-layouts");
 const app = express();
 
 // Middleware
