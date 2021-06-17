@@ -178,8 +178,7 @@ span {
 
 .collabInline {
   display: inline-block;
-  width: 40%;
-  height: 500px;
+  height: 100%;
   margin: 0 auto;
 }
 
