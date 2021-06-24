@@ -22,6 +22,11 @@ app.get("/about", (req, res) => {
   res.render("about", {title: "About Me"})
 })
 
+// Coding
+app.get("/coding", (req, res) => {
+  res.render("coding", {title: "Coding Knowledge"})
+})
+
 // Projects
 app.get("/projects", (req, res) => {
   res.render("projects", {title: "Projects"})

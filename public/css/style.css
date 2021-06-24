@@ -101,7 +101,7 @@ footer a:hover {
   color: deepskyblue;
 }
 
-.aboutMe {
+.aboutMe, .codingKnowledge {
   background-color: rgba(0, 0, 0, .8);
   padding: 20px;
   width: 80%;
@@ -109,17 +109,17 @@ footer a:hover {
   border: 5px solid white;
 }
 
-.aboutMe h2 {
+.aboutMe h2, .codingKnowledge h2 {
   margin-bottom: 0;
   color: gold;
 }
 
-.aboutMe h3 {
+.aboutMe h3, .codingKnowledge h3 {
   margin-bottom: 0;
   color: red;
 }
 
-.aboutMe p {
+.aboutMe p, .codingKnowledge p {
   margin-top: 0;
 }
 
