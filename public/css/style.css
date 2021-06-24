@@ -110,7 +110,7 @@ footer a:hover {
 }
 
 .aboutMe h2, .codingKnowledge h2 {
-  margin-bottom: 0;
+  margin: 0;
   color: gold;
 }
 
