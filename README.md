@@ -4,7 +4,7 @@ Welcome to my portfolio's README. If you wanted to know how the code to my portf
 
 ## Live Website
 
-Now that you've seen the code, let's say you wanted to look at the website itself! You can access my live domain here!
+Now that you've seen the code, let's say you wanted to look at the website itself! You can access my live domain here!!
 
 www.justjeo.com
 
